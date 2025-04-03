@@ -9,24 +9,24 @@ import buyVisa from '../assets/buy-dc-power-visa.svg'
 
 export default function BluLine() {
     return (
-        <div>
-            <div>
+        <div className='blueline'>
+            <div className='bluelink'>
                 <img src={buyDigital} alt="" />
                 <p>digital comics</p>
             </div>
-            <div>
+            <div className='bluelink'>
                 <img src={buyMerchandise} alt="" />
                 <p>dc merchandise</p>
             </div>
-            <div>
+            <div className='bluelink'>
                 <img src={buySubscriptions} alt="" />
                 <p>subscriptions</p>
             </div>
-            <div>
+            <div className='bluelink'>
                 <img src={buyLocator} alt="" />
                 <p>comic shop locator</p>
             </div>
-            <div>
+            <div className='bluelink'>
                 <img src={buyVisa} alt="" />
                 <p>dc power visa</p>
             </div>

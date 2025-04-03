@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   font-family: "Open Sans", sans-serif;
   color: white;
@@ -9,12 +15,20 @@ header {
   background-color: white;
   display: flex;
   justify-content: space-between;
-  margin: 20px 0;
+  padding: 0 20%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+header img {
+  width: 80px;
+  object-fit: contain;
 }
 
 header nav {
   display: flex;
   align-items: stretch;
+  padding: 60px 0;
 }
 
 header ul {
@@ -31,6 +45,68 @@ header ul li {
 }
 
 /* main */
+main {
+  background-color: black;
+  padding: 60px 20%;
+}
+
+
+/* footer */
+/* top part */
+.blueline {
+  padding: 50px 20%;
+  background-color: #0282f9;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bluelink {
+  display: flex;
+  align-items: center;
+}
+
+.bluelink img {
+  max-height: 50px;
+  object-fit: contain;
+}
+
+.bluelink p {
+  text-transform: uppercase;
+  font-size: small;
+  padding-left: 10px;
+  flex-shrink: 0;
+}
+
+/* center part*/
+.linkutili {
+  padding: 50px 20%;
+  background-image: url(./assets/footer-bg.jpg);
+}
+
+.flex {
+  display: flex;
+  gap: 20px;
+}
+
+.flex ul {
+  list-style: none;
+}
+
+.flex ul h3 {
+  font-size: larger;
+  text-transform: uppercase;
+}
+
+.flex ul li {
+  color: grey;
+  font-size: small;
+}
+
+
+
+
+
+
 
 
 a {
@@ -43,9 +119,7 @@ a:hover {
   color: #535bf2;
 }
 
-body {
-  margin: 0 20%;
-}
+
 
 h1 {
   font-size: 3.2em;
