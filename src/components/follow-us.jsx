@@ -6,7 +6,7 @@ import Youtube from '../assets/footer-youtube.png'
 
 export default function FollowUs() {
     return (
-        <div>
+        <div className='followus'>
             <h4>follow us</h4>
             <img src={Facebook} alt="" />
             <img src={Periscope} alt="" />

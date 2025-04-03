@@ -1,3 +1,5 @@
+import DcLogobg from '../assets/dc-logo-bg.png'
+
 export default function linkUtili() {
     return (
         <div className="linkutili">
@@ -49,6 +51,7 @@ export default function linkUtili() {
                     <li>DC power Visa</li>
                 </ul>
             </div>
+            <img src={DcLogobg} alt="" />
         </div>
     );
 }

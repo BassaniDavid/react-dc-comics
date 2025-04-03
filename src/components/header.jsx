@@ -7,16 +7,16 @@ export default function Header() {
             <img src={dcLogo} alt="dc-logo" />
             <nav>
                 <ul>
-                    <li>characters</li>
-                    <li>comics</li>
-                    <li>movies</li>
-                    <li>tv</li>
-                    <li>games</li>
-                    <li>collectibles</li>
-                    <li>videos</li>
-                    <li>fans</li>
-                    <li>news</li>
-                    <li>shop</li>
+                    <li><a href="http://">characters</a></li>
+                    <li><a href="http://">comics</a></li>
+                    <li><a href="http://">movies</a></li>
+                    <li><a href="http://">tv</a></li>
+                    <li><a href="http://">games</a></li>
+                    <li><a href="http://">collectibles</a></li>
+                    <li><a href="http://">videos</a></li>
+                    <li><a href="http://">fans</a></li>
+                    <li><a href="http://">news</a></li>
+                    <li><a href="http://">shop</a></li>
                 </ul>
             </nav>
         </header>

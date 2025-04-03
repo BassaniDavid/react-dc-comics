@@ -8,7 +8,7 @@ export default function Footer() {
         <footer>
             <BluLine />
             <LinkUtili />
-            <div>
+            <div className="bottom">
                 <Button />
                 <FollowUs />
 
