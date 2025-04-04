@@ -3,11 +3,24 @@ import Header from './components/header.jsx'
 import Main from './components/main.jsx'
 import Footer from './components/footer.jsx'
 
+const navLink = [
+  'characters',
+  'comics',
+  'movies',
+  'tv',
+  'games',
+  'collectibles',
+  'videos',
+  'fans',
+  'news',
+  'shop'
+]
+
 function App() {
 
   return (
     <>
-      <Header />
+      <Header link={navLink} />
       <Main />
       <Footer />
     </>
