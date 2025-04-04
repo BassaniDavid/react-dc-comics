@@ -82,7 +82,9 @@ main {
   object-fit: contain;
 }
 
-.bluelink p {
+.bluelink a {
+  color: #ffffff;
+  text-decoration: none;
   text-transform: uppercase;
   font-size: small;
   padding-left: 10px;

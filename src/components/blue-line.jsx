@@ -12,23 +12,23 @@ export default function BluLine() {
         <div className='blueline'>
             <div className='bluelink'>
                 <img src={buyDigital} alt="" />
-                <p>digital comics</p>
+                <a href=" ">digital comics</a>
             </div>
             <div className='bluelink'>
                 <img src={buyMerchandise} alt="" />
-                <p>dc merchandise</p>
+                <a href=" ">dc merchandise</a>
             </div>
             <div className='bluelink'>
                 <img src={buySubscriptions} alt="" />
-                <p>subscriptions</p>
+                <a href=" ">subscriptions</a>
             </div>
             <div className='bluelink'>
                 <img src={buyLocator} alt="" />
-                <p>comic shop locator</p>
+                <a href=" ">comic shop locator</a>
             </div>
             <div className='bluelink'>
                 <img src={buyVisa} alt="" />
-                <p>dc power visa</p>
+                <a href=" ">dc power visa</a>
             </div>
         </div>
     );
