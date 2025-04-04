@@ -8,11 +8,11 @@ export default function FollowUs() {
     return (
         <div className='followus'>
             <h4>follow us</h4>
-            <img src={Facebook} alt="" />
-            <img src={Periscope} alt="" />
-            <img src={Pinterest} alt="" />
-            <img src={Twitter} alt="" />
-            <img src={Youtube} alt="" />
+            <a href=""><img src={Facebook} alt="" /></a>
+            <a href=""><img src={Periscope} alt="" /></a>
+            <a href=""><img src={Pinterest} alt="" /></a>
+            <a href=""><img src={Twitter} alt="" /></a>
+            <a href=""><img src={Youtube} alt="" /></a>
         </div>
     )
 }

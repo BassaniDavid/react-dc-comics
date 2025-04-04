@@ -108,13 +108,16 @@ main {
   list-style: none;
 }
 
-.flex ul h3 {
+.flex ul h3 a {
+  text-decoration: none;
   font-size: larger;
   text-transform: uppercase;
   padding-bottom: 15px;
+  color: grey;
 }
 
-.flex ul li {
+.flex ul li a {
+  text-decoration: none;
   color: grey;
   font-size: small;
 }
@@ -152,11 +155,18 @@ main {
 
 
 /* interactive */
-a:hover {
+header a:hover {
   color: #0282f9;
   border-bottom: 3px solid #0282f9;
 }
 
+.flex ul li a:hover {
+  color: #ffffff;
+}
+
+.flex ul h3 a:hover {
+  color: #ffffff;
+}
 
 button {
   border: 2px solid #0282f9;
@@ -170,5 +180,9 @@ button {
 }
 
 button:hover {
-  border-color: #646cff;
+  border-color: #ffffff;
+}
+
+.followus img:hover {
+  filter: brightness(0) invert(1)
 }
