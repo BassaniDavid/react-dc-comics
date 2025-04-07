@@ -13,7 +13,9 @@ export default function Main(props) {
             <div className="card-container">
                 {comicData}
             </div>
-            <button className="btnmain loadbtn">load more</button>
+            <div className="btn-container">
+                <button className="btnmain loadbtn">load more</button>
+            </div>
         </main>
     );
 }

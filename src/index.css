@@ -80,14 +80,41 @@ header ul li a {
   padding: 15px 25px;
 }
 
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
 .loadbtn {
   margin: 20px auto;
+  padding: 10px 60px;
+  text-transform: uppercase;
 }
 
 main {
   position: relative;
   background-color: black;
-  padding: 80px 20%;
+  padding: 50px 20% 0px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card img {
+  width: 200px;
+  max-height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.card p {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  overflow-wrap: break-word;
 }
 
 
