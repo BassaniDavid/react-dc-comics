@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Header from './components/header.jsx'
 import Main from './components/main.jsx'
 import Footer from './components/footer.jsx'
+import comics from './comics.js'
 
 // dati header
 const navLink = [
@@ -66,7 +67,7 @@ function App() {
   return (
     <>
       <Header link={navLink} />
-      <Main />
+      <Main dataComics={comics} />
       <Footer footerLinkTitol={footerLinkTitol} footerLink={footerLink} />
     </>
   )

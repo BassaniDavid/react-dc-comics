@@ -6,10 +6,10 @@ export default function linkUtili(props) {
     console.log(listlinktitol)
 
     // creo costanti con gli array dell array
-    const listlink0 = props.footerLink[0].map(link => <li><a href=" ">{link}</a></li>)
-    const listlink1 = props.footerLink[1].map(link => <li><a href=" ">{link}</a></li>)
-    const listlink2 = props.footerLink[2].map(link => <li><a href=" ">{link}</a></li>)
-    const listlink3 = props.footerLink[3].map(link => <li><a href=" ">{link}</a></li>)
+    const listlink0 = props.footerLink[0].map((link, index) => <li key={index}><a href=" ">{link}</a></li>)
+    const listlink1 = props.footerLink[1].map((link, index) => <li key={index}><a href=" ">{link}</a></li>)
+    const listlink2 = props.footerLink[2].map((link, index) => <li key={index}><a href=" ">{link}</a></li>)
+    const listlink3 = props.footerLink[3].map((link, index) => <li key={index}><a href=" ">{link}</a></li>)
 
     return (
         <div className="linkutili">
