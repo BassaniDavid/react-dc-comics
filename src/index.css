@@ -65,7 +65,20 @@ header ul li a {
 }
 
 /* main */
+.btnmain {
+  background-color: #0282f9;
+  color: #ffffff;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  left: 400px;
+  transform: translate(0, -50%);
+  padding: 15px 25px;
+}
+
 main {
+  position: relative;
   background-color: black;
   padding: 80px 20%;
 }
